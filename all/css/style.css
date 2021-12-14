@@ -1,0 +1,76 @@
+body{
+ background-image: url(../imgs/bg44.JPG);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+}
+i{
+color: aliceblue;
+}
+.navbar{
+    top: 0;
+    position: sticky;
+    z-index: 9;   
+    background-color: #225580;
+}
+.searchbox{
+    background-color: inherit;
+}
+.logo{
+    width: 95px;
+    margin: -11px 0;
+}
+.fslide{
+    width: 1120px !important;
+    height: 341px;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+   
+    padding: 15px;
+  }
+.allbox {
+    padding: 10px;
+}
+a{
+    text-decoration: none !important;
+}
+.boxlinks{
+    margin: 22px 0;
+    height: 321px;
+}
+.formnav{
+    margin: 0 234px 0 0;
+  }
+  .homelinks{
+      color:white !important;
+  }
+  .homelinks:hover{
+      color: black !important;
+      background: peru;
+      /* border-radius: 30%; */
+  }
+  .footerlinks:hover{
+    text-decoration: underline !important;
+    color: gray !important;
+  }
+  #cardtext{
+margin: -180px 0 0 150px !important;
+    opacity: 0;
+    font-size: 45px;
+    color: black;
+    width: 530px;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+  }
+  .boxlinks:hover #cardtext{
+  opacity: 1;
+  transition: 1s;
+  position: sticky;
+  }
